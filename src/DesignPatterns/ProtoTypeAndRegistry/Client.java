@@ -10,7 +10,8 @@ public class Client {
         studentRegistry.fillRegistry();
 
         Student st1=studentRegistry.get("apr23");
-        st1.setName("danish1");
+       // st1.setName("danish1");
+        System.out.println(st);
     }
 
 
