@@ -13,7 +13,7 @@ public class UserService {
 
     }
 
-//    this will be done by many files so itr is poor things and it is v0;
+//    this will be done by many files so itr is poor things it is v0;
     public void createUser(User user){
         Query q=null;
         if(database instanceof MySQL){
