@@ -11,7 +11,7 @@ public class DataProcessor {
         this.sortingStrategy = sortingStrategy;
     }
 
-    void processData(int[] data){g
+    void processData(int[] data){
         if(sortingStrategy == null){
             setSortingStrategy(SortingStrategyFactory.getSortingStrategyBySize(data.length));
             sortingStrategy.sort(data);
